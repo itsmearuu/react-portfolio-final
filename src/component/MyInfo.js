@@ -1,13 +1,12 @@
 import { TypeAnimation } from 'react-type-animation';
 import rightimage1 from "../img/rightimage.svg";
 
-
 const Myinfo = () => {
     return ( 
         <>
             <div className="container my-5 py-5">
                 <div className="row">
-                    <div className="col-7 text-white text-align-center">
+                    <div style={{marginTop: "150px"}} className="col-6 text-white text-align-center">
                         <h1>Welcome to my Portfolio!</h1>
                         <br />
                         <h1><TypeAnimation
@@ -17,17 +16,21 @@ const Myinfo = () => {
                                 'Im a Designer.',
                                 1500,
                                 'Im a Gamer.',
+                                1500,
+                                'Im a Baller.',
+                                1500,
+                                'Im a Lover.',
                                 1500
                             ]}
                             wrapper="span"
-                            speed={50}
+                            speed={20}
                             style={{ display: 'inline-block' }}
                             repeat={Infinity}/>
                         </h1>
                         <br />
                     </div>
-                    <div className="col-5">
-                        <img src={rightimage1} alt="" style={{width: "500px"}}/>
+                    <div className="col-6">
+                        <img src={rightimage1} alt="" style={{width: "450px", marginLeft: "150px"}}/>
                     </div>
                 </div>
             </div>

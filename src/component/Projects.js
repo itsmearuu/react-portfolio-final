@@ -18,12 +18,8 @@ const Projects = () => {
                 <Card style={{ maxWidth: '18rem' }}>
                 <Card.Img variant="top" src={image1} style={{ height: "175px"}}/>
                 <Card.Body>
-                    <Card.Title>Valorant Website Front-End</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="btn btn-dark">Github Link</Button>
+                    <Card.Title>Valorant Website</Card.Title>
+                    <Button href="" variant="btn btn-dark">Github Link</Button>
                 </Card.Body>
                 </Card>
                 </div>
@@ -32,11 +28,7 @@ const Projects = () => {
                 <Card.Img variant="top" src={image2} style={{ height: "175px"}} />
                 <Card.Body>
                     <Card.Title>Unit Convrter</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="btn btn-dark">Github Link</Button>
+                    <Button href="" variant="btn btn-dark">Github Link</Button>
                 </Card.Body>
                 </Card>
                 </div>
@@ -45,11 +37,7 @@ const Projects = () => {
                 <Card.Img variant="top" src={image3} style={{ height: "175px"}} />
                 <Card.Body>
                     <Card.Title>Weather Api</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="btn btn-dark">Github Link</Button>
+                    <Button href="" variant="btn btn-dark">Github Link</Button>
                 </Card.Body>
                 </Card>
                 </div>
@@ -58,11 +46,7 @@ const Projects = () => {
                 <Card.Img variant="top" src={image4} style={{ height: "175px"}} />
                 <Card.Body>
                     <Card.Title>Animerch</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="btn btn-dark">Github Link</Button>
+                    <Button href="" variant="btn btn-dark">Github Link</Button>
                 </Card.Body>
                 </Card>
                 </div>
