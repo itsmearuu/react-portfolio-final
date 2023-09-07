@@ -17,7 +17,7 @@ const NavigationBar = () => {
             <FontAwesomeIcon icon={faHouse} />
                 Home
             </Nav.Link>
-            <Nav.Link className="text-white" href="/about">
+            <Nav.Link className="text-white" href="#aboutme">
             <FontAwesomeIcon icon={faPerson} />
                 About Me
             </Nav.Link>

@@ -10,7 +10,7 @@ import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 const MySkills = () => {
     return ( 
         <>
-        <div className="container my-5 py-5">
+        <div id="aboutme" className="container my-5 py-5">
             <h1 className='text-center text-white'>My Skills:</h1><br/>
                 <div className='row text-center'>
                     <div className='col-2 text-white'>
