@@ -2,3 +2,41 @@ body{
   background-image: url(img/wallpaper.jpg);
   height: 100vh;
 }
+
+.socials .icon{
+  transition: transform 0.5s;
+}
+.socials .icon:hover{
+  transform: scale(1.5);
+}
+.skillIcon{
+  transition: transform 0.5s;
+}
+.skillIcon:hover{
+  transform: scale(1.5);
+}
+.navtxt{
+  font-size: 18px;
+  margin: 10px;
+  color: #FFF;
+  border-bottom: 3px solid #FFF;
+  transition: transform 0.5s;
+}
+.navtxt:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  color: blueviolet;
+  border-bottom: 3px solid blueviolet;
+}
+.html{
+  color: #cc2500 ;
+}
+.css{
+  color: #005da8;
+}
+.bs{
+  color: #5000a0;
+}
+.rjs{
+  color: #008d47;
+}

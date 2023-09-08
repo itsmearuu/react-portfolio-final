@@ -11,25 +11,25 @@ const MySkills = () => {
     return ( 
         <>
         <div id="aboutme" className="container my-5 py-5">
-            <h1 className='text-center text-white'>My Skills:</h1><br/>
+            <h1 className='text-center text-white'>Professional Skillset and About Me:</h1><br/>
                 <div className='row text-center'>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faJs} size='6x' /></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faJs} size='6x' /></a>
                     </div>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faHtml5} size='6x' /></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faHtml5} size='6x' /></a>
                     </div>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faPython} size='6x' /></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faPython} size='6x' /></a>
                     </div>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faJava} size='6x'/></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faJava} size='6x'/></a>
                     </div>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faNode} size='6x'/></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faNode} size='6x'/></a>
                     </div>
                     <div className='col-2 text-white'>
-                    <a><FontAwesomeIcon icon={faCss3Alt} size='6x'/></a>
+                    <a><FontAwesomeIcon className='skillIcon' icon={faCss3Alt} size='6x'/></a>
                     </div>
                     <div className='col-12'>
                         <h5 className='text-white my-4'>
