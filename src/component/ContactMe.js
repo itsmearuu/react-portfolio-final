@@ -20,26 +20,26 @@ const ContactMe = () => {
                     </div>
                     
                     <div className='container my-5 py-5'>
-                        <h1 className='text-white'>Get Intouch With Me:</h1>
+                        <h1 className='text-white'>Get In Touch With Me:</h1>
                         <Form>
                             <div className='row'>
-                                <div className='col-6'>
-                                <Form.Group className="mb-3">
+                                <div className='col-6-md'>
+                                <Form.Group className="textbox mb-3">
                                     <Form.Control type="name" placeholder="Name" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-6'>
-                                <Form.Group className="mb-3">
+                                <div className='col-6-md'>
+                                <Form.Group className="textbox mb-3">
                                     <Form.Control type="email" placeholder="Email" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-12'>
-                                <Form.Group className="mb-3">
+                                <div className='col-12-md'>
+                                <Form.Group className="textbox mb-3">
                                     <Form.Control type="text" placeholder="Subject" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-12'>
-                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                <div className='col-12-md'>
+                                <Form.Group className="textbox mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Control type='Message' as="textarea" rows={3} placeholder='Message' />
                                 </Form.Group>   
                                 </div> 

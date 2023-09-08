@@ -6,7 +6,7 @@ const Myinfo = () => {
         <>
             <div className="container my-5 py-5">
                 <div className="row">
-                    <div style={{marginTop: "150px"}} className="col-6 text-white text-align-center">
+                    <div className="txt col-lg-6 text-white text-align-center">
                         <h1>Welcome to my Portfolio!</h1>
                         <br />
                         <h1><TypeAnimation
@@ -29,8 +29,8 @@ const Myinfo = () => {
                         </h1>
                         <br />
                     </div>
-                    <div className="col-6">
-                        <img src={rightimage1} alt="" style={{width: "450px", marginLeft: "150px"}}/>
+                    <div className="col-lg-6">
+                        <img className="img-fluid" src={rightimage1} alt="" style={{width: "450px", marginLeft: "40px"}}/>
                     </div>
                 </div>
             </div>

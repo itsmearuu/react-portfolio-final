@@ -14,7 +14,7 @@ const Projects = () => {
                 <h1 className='text-center text-white my-3 py-3'>
                     Projects Published:
                 </h1>
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-6 my-3'>
                 <Card style={{ maxWidth: '18rem' }}>
                 <Card.Img variant="top" src={image1} style={{ height: "175px"}}/>
                 <Card.Body>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </Card.Body>
                 </Card>
                 </div>
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-6 my-3'>
                 <Card style={{ maxWidth: '18rem'  }}>
                 <Card.Img variant="top" src={image2} style={{ height: "175px"}} />
                 <Card.Body>
@@ -41,7 +41,7 @@ const Projects = () => {
                 </Card.Body>
                 </Card>
                 </div>
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-6 my-3'>
                 <Card style={{ maxWidth: '18rem'  }}>
                 <Card.Img variant="top" src={image3} style={{ height: "175px"}} />
                 <Card.Body>
@@ -55,7 +55,7 @@ const Projects = () => {
                 </Card.Body>
                 </Card>
                 </div>
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-6 my-3'>
                 <Card style={{ maxWidth: '18rem' }}>
                 <Card.Img variant="top" src={image4} style={{ height: "175px"}} />
                 <Card.Body>
