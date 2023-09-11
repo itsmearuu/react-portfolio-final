@@ -20,7 +20,7 @@ const Myinfo = () => {
                                 'Im a Baller.',
                                 1500,
                                 'Im a Lover.',
-                                1500
+                                1500,
                             ]}
                             wrapper="span"
                             speed={20}

@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -23,22 +24,22 @@ const ContactMe = () => {
                         <h1 className='text-white'>Get In Touch With Me:</h1>
                         <Form>
                             <div className='row'>
-                                <div className='col-6-md'>
+                                <div className='col-md-6'>
                                 <Form.Group className="textbox mb-3">
                                     <Form.Control type="name" placeholder="Name" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-6-md'>
+                                <div className='col-md-6'>
                                 <Form.Group className="textbox mb-3">
                                     <Form.Control type="email" placeholder="Email" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-12-md'>
+                                <div className='col-lg-12'>
                                 <Form.Group className="textbox mb-3">
                                     <Form.Control type="text" placeholder="Subject" />
                                 </Form.Group>
                                 </div>
-                                <div className='col-12-md'>
+                                <div className='col-lg-12'>
                                 <Form.Group className="textbox mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Control type='Message' as="textarea" rows={3} placeholder='Message' />
                                 </Form.Group>   
